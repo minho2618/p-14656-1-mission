@@ -6,3 +6,5 @@ services:
       - "9200:9200"
     environment:
       - discovery.type=single-node # 단일 노드 모드
+      - xpack.security.enabled=false # 보안 기능 비활성화
+      - xpack.security.http.ssl.enabled=false

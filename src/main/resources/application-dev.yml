@@ -1,0 +1,7 @@
+spring:
+  elasticsearch:
+    uris: localhost:9200
+logging:
+  level:
+    com:
+      back: debug
